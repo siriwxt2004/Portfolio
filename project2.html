@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project 02 | ระบบจัดการยืมคืนหนังสือ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="nav-name mono">ย้อนกลับสู่หน้าหลัก</a>
+    <a class="back-btn" href="index.html">กลับหน้าหลัก</a>
+  </nav>
+</header>
+<main>
+  <section class="wrap">
+    <div class="page-head">
+      <p class="mono page-label">// Project 02</p>
+      <h1>ภาพประกอบระบบจัดการยืมคืนหนังสือ</h1>
+      <p>รวมภาพหน้าจอจากระบบ Back Office ที่พัฒนาด้วย Python/Tkinter และ SQLite สำหรับบรรณารักษ์</p>
+    </div>
+    <div class="gallery-grid">
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="0">
+          <img src="images/project2/1.png" alt="ภาพประกอบโครงการ 02 หน้า 1">
+        </button>
+        <h2>หน้า 1</h2>
+        <p>แดชบอร์ดสรุปสถานะระบบ แสดงจำนวนหนังสือ ยอดผู้ยืม และสถานะการจัดการ</p>
+        <span class="caption">ภาพ 1/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="1">
+          <img src="images/project2/2.png" alt="ภาพประกอบโครงการ 02 หน้า 2">
+        </button>
+        <h2>หน้า 2</h2>
+        <p>ฟังก์ชันการยืม-คืนหนังสือ</p>
+        <span class="caption">ภาพ 2/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="2">
+          <img src="images/project2/3.png" alt="ภาพประกอบโครงการ 02 หน้า 3">
+        </button>
+        <h2>หน้า 3</h2>
+        <p>หน้าบันทึกการยืม-คืนหนังสือ พร้อมตรวจสอบสถานะหนังสือและผู้ยืม</p>
+        <span class="caption">ภาพ 3/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="3">
+          <img src="images/project2/4.png" alt="ภาพประกอบโครงการ 02 หน้า 4">
+        </button>
+        <h2>หน้า 4</h2>
+        <p>ฟอร์มกรอกข้อมูลหนังสือ สำหรับเพิ่ม แก้ไข และลบรายการในฐานข้อมูล</p>
+        <span class="caption">ภาพ 4/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="4">
+          <img src="images/project2/5.png" alt="ภาพประกอบโครงการ 02 หน้า 5">
+        </button>
+        <h2>หน้า 5</h2>
+        <p>ฟังก์ชันจัดการหมวดหมู่หนังสือ สำหรับเพิ่ม แก้ไข และลบรายการหมวดหมู่</p>
+        <span class="caption">ภาพ 5/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="5">
+          <img src="images/project2/6.png" alt="ภาพประกอบโครงการ 02 หน้า 6">
+        </button>
+        <h2>หน้า 6</h2>
+        <p>ฟังก์ชันชั้นหนังสือ สำหรับเพิ่ม แก้ไข และลบรายการหนังสือบนชั้น</p>
+        <span class="caption">ภาพ 6/6</span>
+      </article>
+    </div>
+  </section>
+</main>
+<div class="lightbox-overlay" id="project02Lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop"></div>
+  <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="ดูรูปภาพโครงการ 02">
+    <button class="lightbox-close" type="button" aria-label="ปิด">✕</button>
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+    <div class="lightbox-controls">
+      <button type="button" id="lightboxPrev">ก่อนหน้า</button>
+      <button type="button" id="lightboxNext">ถัดไป</button>
+    </div>
+  </div>
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
