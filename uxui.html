@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UX/UI Design | เว็บเช่าเสื้อ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="nav-name mono">ย้อนกลับสู่หน้าหลัก</a>
+    <a class="back-btn" href="index.html">กลับหน้าหลัก</a>
+  </nav>
+</header>
+<main>
+  <section class="wrap">
+    <div class="page-head">
+      <p class="mono page-label">// Project 02</p>
+      <h1>UX/UI Design เว็บเช่าเสื้อ</h1>
+    </div>
+    <div class="gallery-grid">
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="0" data-gallery="uxui"><img src="images/uxui/1.png" alt="หน้าแรกของเว็บเช่าเสื้อ"></button>
+        <h2>หน้าแรก</h2>
+        <p>หน้า Home สำหรับนำเสนอสินค้า หมวดหมู่ และทางลัดไปยังบริการหลัก</p>
+        <span class="caption">ภาพ 1/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="1" data-gallery="uxui"><img src="images/uxui/2.png" alt="หน้ารายการสินค้าเว็บเช่าเสื้อ"></button>
+        <h2>หน้ารายการสินค้า</h2>
+        <p>แสดงรายการเสื้อผ้าพร้อมราคา ระยะเวลาเช่า และปุ่มเพิ่มสินค้าลงตะกร้า</p>
+        <span class="caption">ภาพ 2/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="2" data-gallery="uxui"><img src="images/uxui/3.png" alt="หน้ารายละเอียดสินค้าเว็บเช่าเสื้อ"></button>
+        <h2>รายละเอียดสินค้า</h2>
+        <p>หน้า Login</p>
+        <span class="caption">ภาพ 3/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="3" data-gallery="uxui"><img src="images/uxui/4.png" alt="หน้าหมวดหมู่สินค้าของเว็บเช่าเสื้อ"></button>
+        <h2>รายละเอียดสินค้า</h2>
+        <p>แสดงรายละเอียดของสินค้า ราคา รวมถึงภาพและข้อมูลเพิ่มเติม </p>
+        <span class="caption">ภาพ 4/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="4" data-gallery="uxui"><img src="images/uxui/5.png" alt="หน้าสินค้าหมวดกางเกงของเว็บเช่าเสื้อ"></button>
+        <h2>หน้า Contact</h2>
+        <p>หน้าสำหรับติดต่อสอบถามข้อมูลเพิ่มเติมเกี่ยวกับบริการเช่าเสื้อผ้า</p>
+        <span class="caption">ภาพ 5/6</span>
+      </article>
+      <article class="gallery-card">
+        <button class="gallery-image-button" type="button" data-index="5" data-gallery="uxui"><img src="images/uxui/6.png" alt="หน้าสินค้าหมวดเครื่องประดับของเว็บเช่าเสื้อ"></button>
+        <h2>ตะกร้าสินค้า</h2>
+        <p>หน้าสำหรับดูสินค้าที่เลือกไว้และดำเนินการชำระเงิน</p>
+        <span class="caption">ภาพ 6/6</span>
+      </article>
+    </div>
+  </section>
+</main>
+<div class="lightbox-overlay" id="project02Lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop"></div>
+  <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="ดูภาพ UX/UI Design เว็บเช่าเสื้อ">
+    <button class="lightbox-close" type="button" aria-label="ปิด">✕</button>
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+    <div class="lightbox-controls">
+      <button type="button" id="lightboxPrev">ก่อนหน้า</button>
+      <button type="button" id="lightboxNext">ถัดไป</button>
+    </div>
+  </div>
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
