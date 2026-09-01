@@ -1,0 +1,28 @@
+# Vercel
+.vercel
+.vercel-build-output
+out
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Development
+.DS_Store
+.env.local
+.env.*.local
+*.log
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# OS
+Thumbs.db
+.prettierignore
